@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Страница проекта · Прототип «Проспект-В»</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="top"><div class="wrap bar">
+<a class="logo" href="index.html">W · ПРОСПЕКТ-В</a>
+<nav id="nav"><a href="projects.html">Проекты</a><a href="team.html">Команда</a><a href="jobs.html">Вакансии</a><a href="offices.html">Офисы</a></nav>
+<a class="btn small" href="#form">Обсудить проект</a>
+<button class="burger" type="button" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+</div></header>
+<div class="proto-bar">Прототип без дизайна. Серые блоки показывают структуру и тексты. Нажмите «💬 Комментировать» у любого блока, чтобы оставить правку.</div>
+<main class="wrap">
+<section class="blk"><span class="sec-label">1 · ЗАГОЛОВОК ПРОЕКТА</span>
+<p class="crumbs"><a href="projects.html">← Все проекты</a></p><h1>Здание Биржи</h1><p class="lead">Санкт-Петербург, Биржевая пл. Проект и реставрация. 2024.</p><div class="ph" style="min-height:300px">Фото: главное фото объекта (широкое)</div>
+<p class="note">→ Пример страницы проекта: шаблон повторяется для каждого объекта. Здание Биржи взято как пример, детали заглушки.</p>
+</section>
+<section class="blk"><span class="sec-label">2 · ПАСПОРТ ПРОЕКТА</span>
+<div class="grid g4"><div class="card"><b>Заказчик</b>ФГБУК (уточнить)</div><div class="card"><b>Год</b>2024</div><div class="card"><b>Наша роль</b>Проект и реставрация</div><div class="card"><b>Виды работ</b>Обследование, проект, реставрация фасада (уточнить)</div></div>
+<p class="note">→ Короткая таблица факта. У конкурентов лучше всего это сделано в rm-nasledie.com: заказчик и год рядом с названием.</p>
+</section>
+<section class="blk"><span class="sec-label">3 · ЧТО БЫЛО И ЧТО СДЕЛАЛИ</span>
+<div class="two"><div><h2>Состояние до начала работ</h2><p>Описание состояния здания, выявленные проблемы (заглушка 3-4 предложения).</p><h2>Что сделали</h2><p>Основные работы по этапам (заглушка).</p></div><div><div class="ph" style="min-height:130px">Фото: до</div><div class="ph" style="min-height:130px">Фото: после</div></div></div>
+<p class="note">→ Пары «до / после» самые убедительные. Нужно по 2-3 пары на объект: запросить у клиента.</p>
+</section>
+<section class="blk"><span class="sec-label">4 · ГАЛЕРЕЯ</span>
+<div class="grid g4"><div class="ph" style="min-height:120px">Фото: кадр 1</div><div class="ph" style="min-height:120px">Фото: кадр 2</div><div class="ph" style="min-height:120px">Фото: кадр 3</div><div class="ph" style="min-height:120px">Фото: кадр 4</div><div class="ph" style="min-height:120px">Фото: кадр 5</div><div class="ph" style="min-height:120px">Фото: кадр 6</div><div class="ph" style="min-height:120px">Фото: кадр 7</div><div class="ph" style="min-height:120px">Фото: кадр 8</div></div>
+<p class="note">→ Галерея 8-12 фото. Исходники в высоком разрешении: уточнить у клиента.</p>
+</section>
+<section class="blk"><span class="sec-label">5 · ДОКУМЕНТЫ И БЛАГОДАРНОСТИ</span>
+<p>Благодарственное письмо заказчика, акт приёмки, охранные документы (если разрешено публиковать). Заглушка.</p>
+<p class="note">→ Благодарности заказчиков усиливают доверие госзаказчиков. Есть ли они у клиента: уточнить.</p>
+</section>
+<section class="blk"><span class="sec-label">6 · СЛЕДУЮЩИЕ ПРОЕКТЫ</span>
+<div class="grid g3"><a class="card click" href="project.html"><div class="ph" style="min-height:150px">Фото: фото</div><span class="badge">КЛИК · СТРАНИЦА ПРОЕКТА</span><h3>Консерватория им. Н.А. Римского-Корсакова</h3><p>Санкт-Петербург, 2024</p><b>Смотреть →</b></a><a class="card click" href="project.html"><div class="ph" style="min-height:150px">Фото: фото</div><span class="badge">КЛИК · СТРАНИЦА ПРОЕКТА</span><h3>Дом-музей Островского</h3><p>Сочи, 2024</p><b>Смотреть →</b></a><a class="card click" href="project.html"><div class="ph" style="min-height:150px">Фото: фото</div><span class="badge">КЛИК · СТРАНИЦА ПРОЕКТА</span><h3>Дом купца Йохана Векрута</h3><p>Выборг, 2017</p><b>Смотреть →</b></a></div>
+<p class="note">→ Перелинковка, чтобы человек не уходил после одного проекта.</p>
+</section>
+<section class="blk"><span class="sec-label">7 · ФОРМА ЗАЯВКИ</span>
+<div class="form" id="form"><h2>Похожий объект? Обсудим</h2><p>Расскажите о здании.</p><div class="fld">Имя</div><div class="fld">Телефон</div><div class="fld">Комментарий</div><div class="fld small">☐ Согласен с обработкой персональных данных (ссылка на политику, обязательно по 152-ФЗ)</div><a class="btn" href="#">Отправить</a></div>
+<p class="note">→ Форма внизу каждой страницы.</p>
+</section>
+
+</main>
+<footer class="foot"><div class="wrap">
+<div><b>ООО «Проспект-В»</b><br>ИНН 4704080930 · ОГРН 1094704002326<br>188800, Ленинградская обл., г. Выборг, ул. Ростовская, д. 5</div>
+<div><a href="projects.html">Проекты</a> · <a href="team.html">Команда</a> · <a href="jobs.html">Вакансии</a> · <a href="offices.html">Офисы</a><br><a href="#">Политика обработки персональных данных</a></div>
+<div>+7 (985) 454-00-07<br>info@prospect-w.ru</div>
+</div></footer>
+<script src="comments.js"></script>
+</body></html>
